@@ -23,6 +23,11 @@ curl https://cursor.com/install -fsS | bash
 brew install --cask cursor-cli
 ```
 
+### Powershell (Windows only)
+```powershell
+irm 'https://cursor.com/install?win32=true' | iex
+```
+
 ### Post-Installation Setup
 
 **macOS:**
